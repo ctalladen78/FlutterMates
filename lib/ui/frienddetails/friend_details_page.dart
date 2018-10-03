@@ -21,13 +21,13 @@ class FriendDetailsPage extends StatefulWidget {
 class _FriendDetailsPageState extends State<FriendDetailsPage> {
   @override
   Widget build(BuildContext context) {
-    var linearGradient = const BoxDecoration(
-      gradient: const LinearGradient(
+    var linearGradient = new BoxDecoration(
+      gradient: new LinearGradient(
         begin: FractionalOffset.centerRight,
         end: FractionalOffset.bottomLeft,
         colors: <Color>[
-          const Color(0xFF413070),
-          const Color(0xFF2B264A),
+          new Color(0xFF413070),
+          new Color(0xFF2B264A),
         ],
       ),
     );
